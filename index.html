@@ -90,32 +90,32 @@
 
                 <div class="campo">
                     <label> Nome </label>
-                    <input type="text" placeholder="Digite seu nome">
+                    <input type="text" placeholder="Digite seu nome" required >
                 </div>
 
                 <div class="linha">
 
                     <div class="campo">
                         <label> E-mail </label>
-                        <input type="email" placeholder="Digite seu E-mail">
+                        <input type="email" placeholder="Digite seu E-mail" required >
                     </div>
 
                     <div class="campo">
                         <label> Celular </label>
-                        <input type="text" placeholder="(11) 99999-9999">
+                        <input type="tel" placeholder="(11) 99999-9999" required >
                     </div>
                 </div>
 
                 <div class="linha">
                     <div class="campo">
                         <label> Data </label>
-                        <input type="date"> 
+                        <input type="date" required     > 
                     </div>
 
                     <div class="campo"> 
                         <label> Horário </label>
 
-                        <select> 
+                        <select required > 
                             <option value=""disabled selected> -- Selecione --</option>
                             <option> 18:00 </option>
                             <option> 19:00 </option>
@@ -128,7 +128,7 @@
                     <div class="campo">
                         <label> Pessoas </label>
 
-                        <select>
+                        <select required >
                             <option value=""disabled selected > -- Seleione -- </option>
                             <option> 1 pessoa </option>
                             <option> 2 pessoas </option>
@@ -141,7 +141,7 @@
                     <div class="campo">
                         <label> Ambiente</label>
 
-                        <select>
+                        <select required >
                             <option value=""disabled selected> -- Selecione --</option>
                             <option> Área Interna </option>
                             <option> Área Externa </option>
