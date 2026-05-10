@@ -37,7 +37,7 @@ nav a:hover{
 }
 
 .inicio{
-    height: 95vh;
+    height: 100vh;
     background-image: url(../imagens/inicio_background.jpg);
     background-size: cover;
     background-position: center;
