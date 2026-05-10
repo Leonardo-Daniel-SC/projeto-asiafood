@@ -153,38 +153,91 @@ i {
 
 
 
-.agendamento h2 {
-    font-size: 40px;
-    margin-bottom: 30px;
-    text-align: center;
+.agendamento {
+    background: #181818;
+    padding: 100px 8%;
 }
 
-.agendamento form {
+.container-agendamento {
+    max-width: 900px;
+    margin: auto;
+    background: #222;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.texto-agendamento {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.texto-agendamento h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.texto-agendamento p {
+    color: #bdbdbd;
+}
+
+.form-agendamento {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
-    margin: auto;
-    gap: 15px;
+    gap: 20px;
 }
 
-.agendamento input {
-    padding: 14px;
-    border-radius: 8px;
+.linha {
+    display: flex;
+    gap: 20px;
+}
+
+.campo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #d1d1d1;
+}
+
+.form-agendamento input,
+.form-agendamento select {
+    padding: 16px;
+    background: #2b2b2b;
+    border: 1px solid #333;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    transition: all .3s linear;
+}
+
+.form-agendamento input:focus,
+.form-agendamento select:focus {
+    border-color: #e63946;
+}
+
+.form-agendamento button {
+    padding: 16px;
     border: none;
-}
-
-.agendamento button {
-    padding: 12px 8%;
-    background-color: red;
+    background: #e63946;
     color: white;
     font-size: 16px;
-    border-radius: 8px;
-    border: none;
+    font-weight: 600;
+    border-radius: 10px;
     cursor: pointer;
     transition: all .3s linear;
 }
 
-.agendamento button:hover {
-    color: rgb(211, 211, 211);
-    background-color: rgb(204, 2, 2);
+.form-agendamento button:hover {
+    background: #ff4d5a;
+}
+
+@media(max-width: 768px ) {
+
+    .linha{ 
+        flex-direction: column;
+    }
 }
