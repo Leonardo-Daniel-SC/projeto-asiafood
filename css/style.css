@@ -15,6 +15,8 @@ header{
     align-items: center;
     padding: 20px 20%;
     background-color: black ;
+    position: fixed;
+    width: 60%;
 }
 
 .logo{
@@ -35,7 +37,7 @@ nav a:hover{
 }
 
 .inicio{
-    height: 90vh;
+    height: 95vh;
     background-image: url(../imagens/inicio_background.jpg);
     background-size: cover;
     background-position: center;
@@ -45,17 +47,17 @@ nav a:hover{
     padding: 0 8%;
 }
 
-.inicio h1{
+.inicio h1 {
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.inicio p{
+.inicio p {
     font-size: 20px;
     margin-bottom: 30px;
 }
 
-.inicio button{
+.inicio button {
     padding: 12px 28px;
     background-color: red;
     color: white;
@@ -65,8 +67,39 @@ nav a:hover{
     cursor: pointer;
 }
 
-.inicio button:hover{
+.inicio button:hover {
     color: grey;
     background-color: darkred;
 }
 
+.sobre h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sobre p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.cards-sobre {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+.card {
+    background-color: rgb(52, 52, 52);
+    padding: 25px;
+    border-radius: 25px;
+    width: 300px;
+    
+
+}
