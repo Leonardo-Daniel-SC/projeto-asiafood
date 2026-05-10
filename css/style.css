@@ -61,16 +61,29 @@ nav a:hover{
 .inicio button {
     padding: 12px 28px;
     background-color: red;
+    border: none;
     color: white;
     font-size: 15px;
     border-radius: 8px;
-    border: none;
     cursor: pointer;
+    transition: all .3s linear;
+    width: 170px;
+    margin-right: 20px;
 }
 
 .inicio button:hover {
-    color: grey;
-    background-color: darkred;
+    color: rgb(211, 211, 211);
+    background-color: rgb(204, 2, 2);
+}
+
+#botao-cardapio {
+    border: solid 1px gold;
+    background-color: transparent;
+    color: gold;
+}
+#botao-cardapio:hover {
+    background-color: gold;
+    color: black;
 }
 
 .sobre h2 {
@@ -103,4 +116,9 @@ h3 {
     width: 300px;
     
 
+<<<<<<< Updated upstream
 }
+=======
+}
+
+>>>>>>> Stashed changes
