@@ -25,6 +25,7 @@ header{
     font-size: 30px;
     font-weight: 700;
     color: red;
+    text-decoration: none;
 }
 
 nav a {
@@ -59,6 +60,7 @@ nav a:hover{
 }
 
 .inicio button {
+    font-family: 'Poppins', sans-serif; 
     padding: 12px 28px;
     background-color: red;
     border: none;
@@ -86,9 +88,12 @@ nav a:hover{
     color: black;
 }
 
+.sobre{
+    padding: 60px 60px;
+}
 .sobre h2 {
     font-size: 40px;
-    margin-bottom: 30px;
+    margin: 30px 0 15px;
     text-align: center;
 }
 
@@ -96,6 +101,7 @@ nav a:hover{
     font-size: 20px;
     margin-bottom: 15px;
     text-align: center;
+    padding: 0px 20% 60px;
 }
 
 .cards-sobre {
@@ -108,14 +114,39 @@ nav a:hover{
 h3 {
     font-size: 30px;
     text-align: center;
+    color: rgb(255, 217, 0);
 }
 .card {
     background-color: rgb(52, 52, 52);
     padding: 25px;
     border-radius: 25px;
     width: 300px;
-    
+    height: 150px;
+    justify-content: center;
+    border: solid .5px rgba(255, 217, 0, 0.334);
 
 }
+.card p {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 10px;
+}
 
+i {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    
+}
 
+#iconesobre {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
