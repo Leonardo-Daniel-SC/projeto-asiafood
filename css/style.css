@@ -219,7 +219,7 @@ i {
 .form-agendamento button {
     padding: 16px;
     border: none;
-    background: #e63946;
+    background: red;
     color: white;
     font-size: 16px;
     font-weight: 600;
@@ -229,7 +229,7 @@ i {
 }
 
 .form-agendamento button:hover {
-    background: #ff4d5a;
+    background: rgb(204, 2, 2);
 }
 
 @media(max-width: 768px ) {
