@@ -17,6 +17,7 @@ header{
     background-color: black ;
     position: fixed;
     width: 60%;
+    top: 0;
 }
 
 .logo{
@@ -24,7 +25,6 @@ header{
     font-size: 30px;
     font-weight: 700;
     color: red;
-    text-decoration: none;
 }
 
 nav a {
@@ -103,9 +103,4 @@ h3 {
     width: 300px;
     
 
-}
-
-#botao {
-    background-color: transparent;
-    color: gold;
 }
