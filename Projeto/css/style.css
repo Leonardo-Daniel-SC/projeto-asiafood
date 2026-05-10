@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20%;
+    background-color: black ;
+}
+
+.logo{
+    font-family: 'Merienda';
+    font-size: 30px;
+    font-weight: 700;
+    color: red;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover{
+    color: red;
+}
+
+.inicio{
+    height: 90vh;
+    background-image: url('https://otempo.scene7.com/is/image/sempreeditora/gastronomia-kanpai-cozinha_japonesa-rod%C3%ADzio%20japon%C3%AAs%20em%20bh-1729721997?qlt=90&wid=1200&ts=1729722261952&dpr=off');
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+}
+
+.inicio h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.inicio p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.inicio button{
+    padding: 12px 28px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.inicio button:hover{
+    color: grey;
+    background-color: darkred;
+}
+
