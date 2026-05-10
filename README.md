@@ -1,2 +1,2 @@
 # projeto-asiafood
-Projeto de um restaurante japonês 
+Projeto de um restaurante de comida japonesa - Disciplina Front-end design
