@@ -469,6 +469,7 @@ section {
     font-size: 12px;
     color: #727983;
 }
+
 .contato { 
     text-align: center;
 }
@@ -487,7 +488,16 @@ section {
     display: flex;
     gap: 15px;
     justify-content: flex-start;
-    width: 220px;
+    width: 400px;
     margin: 20px auto;
+    transform: translateX(60px);
 }
 
+.horarios-coluna {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    text-align: left;
+    font-size: 20px; 
+    line-height: 1.4;
+}
