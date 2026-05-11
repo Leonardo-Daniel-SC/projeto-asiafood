@@ -29,8 +29,8 @@
             <a href="#sobre"> Sobre </a>
             <a href="#agendamento"> Reservas </a>
             <a href="#menu"> Cardápio </a>
-            <a href="#avaliacoes"> Avaliações </a>
             <a href="#contato"> Contato </a>
+            <a href="#avaliacoes"> Avaliações </a>
         </nav>
     </header>
 
@@ -78,83 +78,16 @@
     </section>
 
     <section class="agendamento" id="agendamento">
-        
-        <div class="container-agendamento">
+        <h2> Reserve sua mesa </h2>
 
-            <div class="texto-agendamento">
-                <h2> Reserve sua mesa </h2>
-                <p> Viva uma experiência gastronômica única com os sabores autênticos da Ásia.</p>
-            </div>
+        <form>
+            <input type="text" placeholder="Seu Nome">
+            <input type="date">
+            <input type="time">
+            <input type="number" placeholder="Pessoas">
 
-            <form class="form-agendamento">
-
-                <div class="campo">
-                    <label> Nome </label>
-                    <input type="text" placeholder="Digite seu nome" required >
-                </div>
-
-                <div class="linha">
-
-                    <div class="campo">
-                        <label> E-mail </label>
-                        <input type="email" placeholder="Digite seu E-mail" required >
-                    </div>
-
-                    <div class="campo">
-                        <label> Celular </label>
-                        <input type="tel" placeholder="(11) 99999-9999" required >
-                    </div>
-                </div>
-
-                <div class="linha">
-                    <div class="campo">
-                        <label> Data </label>
-                        <input type="date" required     > 
-                    </div>
-
-                    <div class="campo"> 
-                        <label> Horário </label>
-
-                        <select required > 
-                            <option value=""disabled selected> -- Selecione --</option>
-                            <option> 18:00 </option>
-                            <option> 19:00 </option>
-                            <option> 20:00 </option>
-                            <option> 21:00 </option>
-                            <option> 22:00 </option>
-                        </select>
-                    </div>
-
-                    <div class="campo">
-                        <label> Pessoas </label>
-
-                        <select required >
-                            <option value=""disabled selected > -- Seleione -- </option>
-                            <option> 1 pessoa </option>
-                            <option> 2 pessoas </option>
-                            <option> 3 pessoas </option>
-                            <option> 4 pessoas </option>
-                            <option> 5+ pessoas </option>
-                        </select>
-                    </div>
-
-                    <div class="campo">
-                        <label> Ambiente</label>
-
-                        <select required >
-                            <option value=""disabled selected> -- Selecione --</option>
-                            <option> Área Interna </option>
-                            <option> Área Externa </option>
-                            <option> VIP </option>
-                        </select>
-                    </div>
-                </div>
-                
-                <button type="submit"> Reservar Mesa </button>
-
-            </form>
-
-        </div>
+            <button type="submit"> Reservar </button>
+        </form>
 
     </section>
 
@@ -221,5 +154,15 @@
         </div>
         
     </section>
+    <footer id="footer">
+        <div class="container-logo">
+            <h6 id="logo">Asia Foods</h6>
+            <p> Sabores da Ásia em um só lugar </p>
+        </div>
+        <div class="container-copyright">
+            <p id="copyright"> &copy; 2026 Asia Foods. Todos os direitos reservados. </p> 
+            <p id="desc">Feito com paixão e precisão</p>
+        </div>
+    </footer>
 </body>
 </html>
