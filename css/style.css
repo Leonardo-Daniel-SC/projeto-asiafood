@@ -230,7 +230,12 @@ i {
 
 .form-agendamento input:focus,
 .form-agendamento select:focus {
-    border-color: #e63946;
+    border-color: gold;
+    outline: none;
+    background-color: #515151c2;
+}
+input:invalid{
+    border-color: red;
 }
 
 .form-agendamento button {
