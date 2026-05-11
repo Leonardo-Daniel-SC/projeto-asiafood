@@ -431,3 +431,26 @@ section {
     color: rgb(211, 211, 211);
     background-color: rgb(204, 2, 2);
 }
+
+.contato { 
+    text-align: center;
+}
+
+.contato h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.contato p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.contato-icone {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    width: 220px;
+    margin: 20px auto;
+}
+
