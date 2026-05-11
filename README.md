@@ -1,3 +1,2 @@
-# projeto-asiafood
-Projeto de um restaurante de comida japonesa - Disciplina Front-end Design
-Ola Léo 
+# projeto-AsiaFoods
+Projeto de um restaurante de comidas asiáticas - Disciplina Front-end Design
