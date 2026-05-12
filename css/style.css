@@ -80,7 +80,7 @@ h1::first-letter{
     margin-bottom: 30px;
 }
 
-.inicio button {
+.inicio #botao-reserva {
     font-family: 'Poppins', sans-serif; 
     padding: 12px 28px;
     background-color: red;
@@ -92,9 +92,10 @@ h1::first-letter{
     transition: all .3s linear;
     width: 170px;
     margin-right: 20px;
+    text-decoration: none;
 }
 
-.inicio button:hover {
+.inicio #botao-reserva:hover {
     color: rgb(211, 211, 211);
     background-color: rgb(204, 2, 2);
 }
@@ -103,6 +104,11 @@ h1::first-letter{
     border: solid 1px gold;
     background-color: transparent;
     color: gold;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    width: 170px;
+    font-size: 15px;
 }
 #botao-cardapio:hover {
     background-color: gold;
