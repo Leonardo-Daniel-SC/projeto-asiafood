@@ -18,7 +18,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px 20%;
-    background-color: black ;
+    background-color: rgba(0, 0, 0, 0.539) ;
     position: fixed;
     width: 60%;
     top: 0;
