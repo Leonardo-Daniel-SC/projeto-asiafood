@@ -46,6 +46,8 @@ nav a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
+    transition: all .3s linear;
+
 }
 
 nav a:hover{
@@ -84,7 +86,7 @@ h1::first-letter{
     font-family: 'Poppins', sans-serif; 
     padding: 12px 28px;
     background-color: red;
-    border: none;
+    border: solid 1px red;
     color: white;
     font-size: 15px;
     border-radius: 8px;
@@ -98,6 +100,7 @@ h1::first-letter{
 .inicio #botao-reserva:hover {
     color: rgb(211, 211, 211);
     background-color: rgb(204, 2, 2);
+    border-color: rgb(204, 2, 2);
 }
 
 #botao-cardapio {
@@ -109,6 +112,8 @@ h1::first-letter{
     border-radius: 8px;
     width: 170px;
     font-size: 15px;
+    transition: all .3s linear;
+
 }
 #botao-cardapio:hover {
     background-color: gold;
