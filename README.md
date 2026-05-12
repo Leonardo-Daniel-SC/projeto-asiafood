@@ -33,7 +33,6 @@ O **Asia Foods** é um projeto desenvolvido em HTML5 e CSS3. Focando na esperiê
 
 ## 📂 Estrutura de Arquivos
 ```text
-.
 📁 asia-foods
 │
 ├── index.html
@@ -55,6 +54,5 @@ O **Asia Foods** é um projeto desenvolvido em HTML5 e CSS3. Focando na esperiê
 * Contato
 
 ## 📌 Links
-* Repositório: `https://github.com/Leonardo-Daniel-SC/projeto-asiafood`
-* Site publicado: `https://leonardo-daniel-sc.github.io/projeto-asiafood/`
-* teste: [Site Publicado](https://leonardo-daniel-sc.github.io/projeto-asiafood/)
+* [Repositório](https://github.com/Leonardo-Daniel-SC/projeto-asiafood)
+* [Site Publicado](https://leonardo-daniel-sc.github.io/projeto-asiafood/)
